@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f8f8f8;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
+
+/* Tab Bar */
+.tab-bar {
+  display: flex;
+  justify-content: space-around;
+  background: #ddd;
+  padding: 0.5rem;
+}
+
+.tab-bar button {
+  flex: 1;
+  margin: 0 0.25rem;
+  padding: 0.75rem;
+  font-weight: bold;
+  border: none;
+  background: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.tab-bar button:hover {
+  background: #ccc;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+/* Drink Name */
+.drink-name {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Recipe Sections */
+.recipe-section {
+  margin-bottom: 1.5rem;
+}
+.recipe-section {
+  background-color: #222;
+  color: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+.recipe-section h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5px;
+}
+
+.recipe-section ul {
+  padding-left: 20px;
+}
+
+.drink-name {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 20px 0;
+  color: #ffd700;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+}
+
+/* Footer Search */
+footer {
+  padding: 0.5rem;
+  background: #eee;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+/* Next Button */
+#next-btn {
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#next-btn:hover {
+  background-color: #444;
+}
+
+.shot-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.shots-tab {
+  background-color: #4CAF50;
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 0.25rem;
+  display: inline-block;
+}
+.tab-button.active {
+  background-color: #444;
+  color: #fff;
+}
+
+#tab-content {
+  background: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 1.1rem;
+}
+.az-list {
+  list-style: none;
+  padding: 0;
+}
+
+.drink-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #333;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.drink-item:hover {
+  background: #555;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.back-button:hover {
+  background-color: #666;
+}

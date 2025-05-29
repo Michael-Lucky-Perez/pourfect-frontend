@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pourfect Shots</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #f0f0f0;
+      text-align: center;
+      padding: 2rem;
+    }
+    .recipe-section {
+      margin: 2rem auto;
+      max-width: 500px;
+      background-color: #1e1e1e;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    button {
+      margin: 0.5rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Pourfect Shots Menu</h1>
+  <div class="recipe-section" id="shotDisplay"></div>
+  <button onclick="prevShot()">⬅️ Back</button>
+  <button onclick="nextShot()">Next ➡️</button>
+
+  <script>
+    const shots = [
+      {
+        name: "Green Tea Shot",
+        ingredients: [
+          "0.5 oz Jameson Irish Whiskey",
+          "0.5 oz Peach Schnapps",
+          "0.5 oz Sour Mix",
+          "Splash of Sprite"
+        ],
+        instructions: "Shake all but Sprite with ice. Strain. Top with Sprite.",
+        glassware: "Shot Glass"
+      },
+      {
+        name: "Pineapple Upside Down Cake",
+        ingredients: [
+          "1 oz Vanilla Vodka",
+          "0.5 oz Pineapple Juice",
+          "Dash of Grenadine"
+        ],
+        instructions: "Shake vodka + juice with ice. Strain. Add grenadine slowly.",
+        glassware: "Shot Glass"
+      },
+      {
+        name: "Kamikaze",
+        ingredients: [
+          "1 oz Vodka",
+          "0.5 oz Triple Sec",
+          "0.5 oz Lime Juice"
+        ],
+        instructions: "Shake with ice and strain.",
+        glassware: "Shot Glass"
+      },
+      {
+        name: "Washington Apple",
+        ingredients: [
+          "0.5 oz Crown Royal",
+          "0.5 oz Apple Schnapps",
+          "0.5 oz Cranberry Juice"
+        ],
+        instructions: "Shake with ice and strain.",
+        glassware: "Shot Glass"
+      },
+      {
+        name: "Lemon Drop",
+        ingredients: [
+          "1 oz Vodka",
+          "0.5 oz Lemon Juice",
+          "0.5 oz Simple Syrup"
+        ],
+        instructions: "Shake and strain into sugar-rimmed glass.",
+        glassware: "Shot Glass (sugar rim optional)"
+      },
+      {
+        name: "Mexican Candy",
+        ingredients: [
+          "1 oz Tequila (silver)",
+          "0.5 oz Watermelon Schnapps",
+          "Dash of Hot Sauce"
+        ],
+        instructions: "Shake all with ice. Rim with Tajin if desired.",
+        glassware: "Shot Glass (Tajin rim optional)"
+      }
+    ];
+
+    let currentShot = 0;
+
+    function displayShot(index) {
+      const shot = shots[index];
+      const section = document.getElementById('shotDisplay');
+      section.innerHTML = `
+        <h2>${shot.name}</h2>
+        <h3>Ingredients</h3>
+        <ul>${shot.ingredients.map(item => `<li>${item}</li>`).join('')}</ul>
+        <h3>Instructions</h3>
+        <p>${shot.instructions}</p>
+        <h3>Glassware</h3>
+        <p>${shot.glassware}</p>
+      `;
+    }
+
+    function nextShot() {
+      currentShot = (currentShot + 1) % shots.length;
+      displayShot(currentShot);
+    }
+
+    function prevShot() {
+      currentShot = (currentShot - 1 + shots.length) % shots.length;
+      displayShot(currentShot);
+    }
+
+    // Load the first shot on page load
+    window.onload = () => displayShot(currentShot);
+  </script>
+
+</body>
+</html>

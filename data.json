@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Old Fashioned",
+    "ingredients": [
+      "2 oz Bourbon or Rye Whiskey",
+      "1 Sugar Cube (or 0.5 oz Simple Syrup)",
+      "2-3 dashes Angostura Bitters",
+      "Splash of Water (optional)"
+    ],
+    "instructions": "Muddle sugar and bitters with a splash of water (if using cube). Add whiskey and ice. Stir gently.",
+    "glassware": "Rocks Glass",
+    "garnish": "Orange twist and cherry"
+  },
+  {
+    "name": "Margarita",
+    "ingredients": [
+      "2 oz Tequila",
+      "1 oz Triple Sec",
+      "1 oz Fresh Lime Juice",
+      "0.5 oz Simple Syrup (optional)"
+    ],
+    "instructions": "Shake all ingredients with ice. Strain into a salt-rimmed glass over fresh ice.",
+    "glassware": "Rocks Glass",
+    "garnish": "Lime wedge and salted rim"
+  },
+  {
+    "name": "Cosmopolitan",
+    "ingredients": [
+      "1.5 oz Citrus Vodka",
+      "1 oz Cointreau or Triple Sec",
+      "0.5 oz Fresh Lime Juice",
+      "1 oz Cranberry Juice"
+    ],
+    "instructions": "Shake all ingredients with ice and strain into a chilled glass.",
+    "glassware": "Coupe or Martini Glass",
+    "garnish": "Lime wheel or orange peel"
+  },
+  {
+    "name": "Mojito",
+    "ingredients": [
+      "2 oz White Rum",
+      "1 oz Fresh Lime Juice",
+      "0.75 oz Simple Syrup",
+      "6-8 Mint Leaves",
+      "Club Soda to top"
+    ],
+    "instructions": "Muddle mint with lime juice and syrup. Add rum and ice. Top with club soda and stir lightly.",
+    "glassware": "Highball Glass",
+    "garnish": "Mint sprig and lime wedge"
+  },
+  {
+    "name": "Espresso Martini",
+    "ingredients": [
+      "1.5 oz Vodka",
+      "1 oz Espresso (fresh)",
+      "0.75 oz Coffee Liqueur (like Kahl\u00faa)",
+      "0.5 oz Simple Syrup (optional)"
+    ],
+    "instructions": "Shake all ingredients vigorously with ice and strain into a chilled glass.",
+    "glassware": "Martini Glass",
+    "garnish": "3 coffee beans"
+  },
+  {
+    "name": "French 75",
+    "ingredients": [
+      "1 oz Gin",
+      "0.5 oz Fresh Lemon Juice",
+      "0.5 oz Simple Syrup",
+      "Top with Champagne"
+    ],
+    "instructions": "Shake gin, lemon, and syrup with ice. Strain into a flute and top with Champagne.",
+    "glassware": "Flute Glass",
+    "garnish": "Lemon twist"
+  },
+  {
+    "name": "Mai Tai",
+    "ingredients": [
+      "1 oz White Rum",
+      "1 oz Dark Rum",
+      "0.5 oz Orange Cura\u00e7ao",
+      "0.25 oz Orgeat Syrup",
+      "0.75 oz Fresh Lime Juice"
+    ],
+    "instructions": "Shake all but dark rum with ice. Strain over fresh ice and float the dark rum on top.",
+    "glassware": "Rocks Glass",
+    "garnish": "Mint sprig and lime wheel"
+  },
+  {
+    "name": "Negroni",
+    "ingredients": [
+      "1 oz Gin",
+      "1 oz Campari",
+      "1 oz Sweet Vermouth"
+    ],
+    "instructions": "Stir all ingredients with ice and strain into a rocks glass over ice.",
+    "glassware": "Rocks Glass",
+    "garnish": "Orange peel"
+  },
+  {
+    "name": "Whiskey Sour",
+    "ingredients": [
+      "2 oz Bourbon",
+      "0.75 oz Fresh Lemon Juice",
+      "0.75 oz Simple Syrup",
+      "Optional: 0.5 oz Egg White"
+    ],
+    "instructions": "Shake all ingredients without ice (if using egg white), then shake again with ice. Strain into a glass.",
+    "glassware": "Rocks Glass",
+    "garnish": "Cherry and orange slice"
+  },
+  {
+    "name": "Paloma",
+    "ingredients": [
+      "2 oz Tequila",
+      "0.5 oz Lime Juice",
+      "Pinch of Salt",
+      "Top with Grapefruit Soda"
+    ],
+    "instructions": "Build in a glass over ice. Stir gently and top with grapefruit soda.",
+    "glassware": "Highball Glass",
+    "garnish": "Lime wedge or grapefruit slice"
+  },
+  {
+    "name": "Cape Codder",
+    "ingredients": [
+      "1.5 oz vodka",
+      "3 oz cranberry juice",
+      "Lime wedge"
+    ],
+    "instructions": "Build in a highball glass filled with ice. Stir gently and garnish with lime.",
+    "glassware": "Highball Glass",
+    "garnish": "Lime wedge"
+  },
+  {
+    "name": "Greyhound",
+    "ingredients": [
+      "2 oz vodka",
+      "4 oz grapefruit juice"
+    ],
+    "instructions": "Build in a highball glass over ice. Stir and serve.",
+    "glassware": "Highball Glass",
+    "garnish": "None"
+  },
+  {
+    "name": "Salty Dog",
+    "ingredients": [
+      "2 oz vodka",
+      "4 oz grapefruit juice",
+      "Salt for rim"
+    ],
+    "instructions": "Rim the glass with salt. Build drink in glass over ice and stir.",
+    "glassware": "Highball Glass",
+    "garnish": "Salt rim"
+  },
+  {
+    "name": "Vodka Tonic",
+    "ingredients": [
+      "2 oz vodka",
+      "4 oz tonic water",
+      "Lime wedge"
+    ],
+    "instructions": "Build in a highball glass over ice. Garnish with lime.",
+    "glassware": "Highball Glass",
+    "garnish": "Lime wedge"
+  },
+  {
+    "name": "Moscow Mule",
+    "ingredients": [
+      "2 oz vodka",
+      "0.5 oz lime juice",
+      "4 oz ginger beer"
+    ],
+    "instructions": "Build in a copper mug with ice. Stir and garnish with lime.",
+    "glassware": "Copper Mug",
+    "garnish": "Lime wedge"
+  },
+  {
+    "name": "White Russian",
+    "ingredients": [
+      "2 oz vodka",
+      "1 oz coffee liqueur",
+      "1 oz heavy cream"
+    ],
+    "instructions": "Build in an old fashioned glass with ice. Float cream on top and stir gently.",
+    "glassware": "Old Fashioned Glass",
+    "garnish": "None"
+  },
+  {
+    "name": "Vodka Collins",
+    "ingredients": [
+      "2 oz vodka",
+      "1 oz lemon juice",
+      "0.5 oz simple syrup",
+      "Soda water"
+    ],
+    "instructions": "Shake vodka, lemon juice, and syrup with ice. Strain into a Collins glass and top with soda water.",
+    "glassware": "Collins Glass",
+    "garnish": "Lemon slice and cherry"
+  },
+  {
+    "name": "Vodka Gimlet",
+    "ingredients": [
+      "2 oz vodka",
+      "0.75 oz lime juice",
+      "0.75 oz simple syrup"
+    ],
+    "instructions": "Shake all ingredients with ice and strain into a chilled cocktail glass.",
+    "glassware": "Cocktail Glass",
+    "garnish": "Lime wheel"
+  },
+  {
+    "name": "Vodka Martini",
+    "ingredients": [
+      "2.5 oz vodka",
+      "0.5 oz dry vermouth"
+    ],
+    "instructions": "Stir with ice and strain into a chilled martini glass.",
+    "glassware": "Martini Glass",
+    "garnish": "Lemon twist or olive"
+  },
+  {
+    "name": "Dirty Martini",
+    "ingredients": [
+      "2.5 oz vodka",
+      "0.5 oz dry vermouth",
+      "0.5 oz olive brine"
+    ],
+    "instructions": "Stir with ice and strain into a martini glass. Garnish with olives.",
+    "glassware": "Martini Glass",
+    "garnish": "Olives"
+  }
+]

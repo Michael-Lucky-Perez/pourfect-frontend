@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pourfect App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1 class="app-title">POURFECT</h1>
+    </header>
+
+   <nav class="tab-bar">
+    <button class="tab-button" data-tab="favorites">Favorites</button>
+    <button class="tab-button" data-tab="az">A-Z</button>
+    <button class="tab-button" data-tab="spirits">Spirits</button>
+    <a href="shots.html" class="shots-tab">Shots</a>
+    <button class="tab-button" data-tab="prep">Prep</button>
+   </nav>
+
+    <main>
+     <div id="recipe-view"> 
+      <section class="drink-name">Loading...</section>
+
+      <section class="recipe-section"></section>
+      <section class="recipe-section"></section>
+      <section class="recipe-section"></section>
+      <section class="recipe-section"></section>
+
+      <button id="next-btn">Next Recipe</button>
+      <div id="recipe-container"></div>
+     </div> 
+
+    
+     <div id="tab-content" class="tab-display-box"></div>
+    </main> 
+
+    <footer>
+      <input type="text" id="search-bar" placeholder= "Search drinks..." class="search-bar" />
+    </footer>
+  </div>
+  <script src="recipes.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
