@@ -91,7 +91,6 @@ main {
   text-shadow: 1px 1px #000;
 }
 
-/* Footer Search */
 footer {
   padding: 0.5rem;
   background: #eee;
@@ -189,4 +188,105 @@ footer {
 
 .back-button:hover {
   background-color: #666;
+}
+.favorite-btn {
+  margin-left: 1rem;
+  font-size: 1.25rem;
+  background: none;
+  border: none;
+  color: #ffd700; /* gold star */
+  cursor: pointer;
+  transition: transform 0.2s;
+  vertical-align: middle;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.2);
+  color: #ffeb3b; /* brighter gold on hover */
+}
+.az-subtabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.az-subtab {
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 1px solid #aaa;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.az-subtab:hover {
+  background: #f0f0f0;
+}
+.az-subtabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.az-subtab {
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 1px solid #aaa;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.az-subtab:hover {
+  background: #f0f0f0;
+}
+
+.autocomplete-item {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.autocomplete-item:hover {
+  background-color: #eee;
+}
+.search-container {
+  position: relative;
+  width: 300px; /* or 350px for a nice fixed width */
+  margin: 1rem 0 1rem 1rem; /* 👈 shifts it toward the left */
+  z-index: 10;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  z-index: 2;
+  position: relative;
+}
+
+.autocomplete-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 5;
+}
+
+.autocomplete-item {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.autocomplete-item:hover {
+  background-color: #eee;
 }

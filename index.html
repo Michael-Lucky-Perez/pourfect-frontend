@@ -11,36 +11,47 @@
     <header>
       <h1 class="app-title">POURFECT</h1>
     </header>
+    <!-- SEARCH BAR AND AUTOCOMPLETE -->
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Search drinks..." class="search-bar" autocomplete="off" />
+      <div id="autocomplete-list" class="autocomplete-list"></div>
+    </div>
 
-   <nav class="tab-bar">
-    <button class="tab-button" data-tab="favorites">Favorites</button>
-    <button class="tab-button" data-tab="az">A-Z</button>
-    <button class="tab-button" data-tab="spirits">Spirits</button>
-    <a href="shots.html" class="shots-tab">Shots</a>
-    <button class="tab-button" data-tab="prep">Prep</button>
-   </nav>
+    <!-- MAIN TABS -->
+    <nav class="tab-bar">
+      <button class="tab-button" data-tab="favorites">Favorites</button>
+      <button class="tab-button" data-tab="specialty">Specialty</button>
+      <button class="tab-button" data-tab="af">A–F</button>
+      <button class="tab-button" data-tab="gl">G–L</button>
+      <button class="tab-button" data-tab="mr">M–R</button>
+      <button class="tab-button" data-tab="sz">S–Z</button>
+      <button class="tab-button" data-tab="spirits">Spirits</button>
+      <button class="tab-button" data-tab="shots">Shots</button>
+      <button class="tab-button" data-tab="prep">Prep</button>
+      <button class="tab-button" data-tab="style">Style</button>
+    </nav>
 
+    <!-- MAIN CONTENT -->
     <main>
-     <div id="recipe-view"> 
-      <section class="drink-name">Loading...</section>
+      <div id="search-results" class="tab-display-box"></div>
 
-      <section class="recipe-section"></section>
-      <section class="recipe-section"></section>
-      <section class="recipe-section"></section>
-      <section class="recipe-section"></section>
+      <div id="recipe-view"> 
+        <section class="drink-name">Loading...</section>
+        <section class="recipe-section"></section>
+        <section class="recipe-section"></section>
+        <section class="recipe-section"></section>
+        <section class="recipe-section"></section>
+        <button id="next-btn">Next Recipe</button>
+        <div id="recipe-container"></div>
+      </div>
 
-      <button id="next-btn">Next Recipe</button>
-      <div id="recipe-container"></div>
-     </div> 
-
-    
-     <div id="tab-content" class="tab-display-box"></div>
-    </main> 
+      <div id="tab-content" class="tab-display-box"></div>
+    </main>
 
     <footer>
-      <input type="text" id="search-bar" placeholder= "Search drinks..." class="search-bar" />
     </footer>
   </div>
+
   <script src="recipes.js"></script>
   <script src="script.js"></script>
 </body>

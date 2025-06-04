@@ -228,5 +228,73 @@
     "instructions": "Stir with ice and strain into a martini glass. Garnish with olives.",
     "glassware": "Martini Glass",
     "garnish": "Olives"
+  },
+
+  {
+    "name": "Tequila Sunrise",
+    "ingredients": [
+      "2 oz Tequila",
+      "4 oz Orange Juice",
+      "0.5 oz Grenadine"
+    ],
+    "instructions": "Pour tequila and orange juice into a highball glass with ice. Slowly pour grenadine to create a sunrise effect.",
+    "glassware": "Highball",
+    "garnish": "Orange slice and cherry",
+    "category": "Spirits",
+    "style": "margarita"
+  },
+  {
+    "name": "Classic Margarita",
+    "ingredients": [
+      "2 oz Tequila",
+      "1 oz Lime Juice",
+      "1 oz Triple Sec"
+    ],
+    "instructions": "Shake all ingredients with ice and strain into a salt-rimmed glass filled with fresh ice.",
+    "glassware": "Rocks Glass",
+    "garnish": "Lime wheel",
+    "category": "Spirits",
+    "style": "margarita"
+  },
+  {
+    "name": "Strawberry Margarita",
+    "ingredients": [
+      "2 oz Tequila",
+      "1 oz Lime Juice",
+      "1 oz Triple Sec",
+      "1 oz Strawberry Puree"
+    ],
+    "instructions": "Shake all ingredients with ice and strain into a glass filled with fresh ice.",
+    "glassware": "Rocks Glass",
+    "garnish": "Strawberry slice",
+    "category": "Spirits",
+    "style": "margarita"
+  },
+  {
+    "name": "Cadillac Margarita",
+    "ingredients": [
+      "2 oz Premium Tequila",
+      "1 oz Lime Juice",
+      "1 oz Grand Marnier"
+    ],
+    "instructions": "Shake all ingredients with ice and strain into a salt-rimmed glass filled with fresh ice.",
+    "glassware": "Rocks Glass",
+    "garnish": "Lime wheel",
+    "category": "Spirits",
+    "style": "margarita"
+  },
+  {
+    "name": "Frozen Margarita",
+    "ingredients": [
+      "2 oz Tequila",
+      "1 oz Lime Juice",
+      "1 oz Triple Sec",
+      "1 cup Ice"
+    ],
+    "instructions": "Blend all ingredients until smooth and pour into a salt-rimmed glass.",
+    "glassware": "Margarita Glass",
+    "garnish": "Lime wedge",
+    "category": "Spirits",
+    "style": "margarita"
   }
 ]
